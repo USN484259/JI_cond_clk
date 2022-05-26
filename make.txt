@@ -1,0 +1,4 @@
+gcc -shared -fPIC -o libcond_clk_lib.so cond_clk_lib_X11.cpp -lX11 -lXtst
+java -cp "luaj-jse-3.0.2.jar:JI_cond_clk.jar:jna.jar:./" lua
+
+
